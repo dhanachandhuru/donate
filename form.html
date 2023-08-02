@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body> <div class="wrapper">
+    <div class="navbar">
+        <div class="logo">
+            <img src="giving1.jpeg" alt="logo" height="64px" width="75px">
+        </div>
+        <div class="title">THE GODSPACE</div>
+        <div class="nav_right">
+            <ul>
+                <li class="nr_li dd_main">
+                      <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar1"></div>
+                    <div class="bar1"></div>
+                    </div>
+                     <div class="dd_menu">
+                        <div class="dd_left">
+                            <ul>
+                                <li><i class="fas fa-home"></i></li>
+                                <li><i class="fas fa-book"></i></li>
+                                <li><i class="fas fa-address-book"></i></li>
+                                <li><i class="fas fa-user"></i></li>
+                         </ul>
+                        </div>
+                        <div class="dd_right">
+                            <ul>
+                                <h4><a href="index.html">HOME</a></h4>
+                                <h4><a href="aboutus.html">ABOUT</a></h4>
+                                <h4><a href="NEEDS.html">NEEDS</a></h4>
+                                <h4><a href="form.html">LOG IN</a></h4> 
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>	
+<script>
+    var dd_main = document.querySelector(".dd_main");
+    dd_main.addEventListener("click", function(){
+        this.classList.toggle("active");
+    })
+</script>
+</div>
